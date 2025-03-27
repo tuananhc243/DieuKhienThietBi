@@ -3,23 +3,23 @@
 #include <PubSubClient.h>
 #include <WiFiClientSecure.h>
 
-#define sub "S" 
-#define pub "S_tt"
-#define sub1 "M" 
-#define pub1 "M_tt"
+#define sub "A" 
+#define pub "A_tt"
+#define sub1 "T" 
+#define pub1 "T_tt"
 
 #define button_d 3 
 #define button_q 32 
 #define RL 1 
 #define RL1 14 
 
-const char* ssid = "Truong Thi Ha";  
-const char* password = "25101973"; 
+const char* ssid = "aaaaaa";  
+const char* password = "223332323"; 
 
-const char* mqtt_server = "9ba9df8b51f04323ae32907b8d102e89.s1.eu.hivemq.cloud";
+const char* mqtt_server = "9ba9df.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
-const char* mqtt_username = "tuananhc"; 
-const char* mqtt_password = "Abc123456789"; 
+const char* mqtt_username = "....tanhc"; 
+const char* mqtt_password = "........"; 
 
 WiFiClientSecure espClient;
 PubSubClient client(espClient);
