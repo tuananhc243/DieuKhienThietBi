@@ -2,10 +2,10 @@ from tkinter  import *
 import paho.mqtt.client as mqtt
 
 # Khai báo thông tin broker và topic
-pub = "S" #chủ đề gửi thông tin đến esp
-sub = "S_tt"# chủ đề nhận thông tin từ esp
-pub1 = "M"# chủ đề quạt
-sub1 = "M_tt"#
+pub = "A" #chủ đề gửi thông tin đến esp
+sub = "A_tt"# chủ đề nhận thông tin từ esp
+pub1 = "T"# chủ đề quạt
+sub1 = "T_tt"#
 
 broker_address = "9ba9df8b51f04323ae32907b8d102e89.s1.eu.hivemq.cloud"
 port = 8883 
