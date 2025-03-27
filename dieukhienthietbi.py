@@ -7,10 +7,10 @@ sub = "A_tt"# chủ đề nhận thông tin từ esp
 pub1 = "T"# chủ đề quạt
 sub1 = "T_tt"#
 
-broker_address = "9ba9df8b51f04323ae32907b8d102e89.s1.eu.hivemq.cloud"
+broker_address = "9.eu.hivemq.cloud"
 port = 8883 
-username = "tuananhc"
-password = "Abc123456789"
+username = "tuac"
+password = "A54656789"
 
 # Kết nối đến HiveMQ broker
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)  # Sử dụng API mới
